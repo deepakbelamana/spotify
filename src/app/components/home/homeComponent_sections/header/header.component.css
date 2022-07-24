@@ -1,0 +1,6 @@
+.header
+{
+  width: 100%; /*change to clamp later*/
+  background-color: black;
+  height: 10vh;
+}
