@@ -2,7 +2,31 @@
 {
   width: 100%; /*change to clamp later*/
   background-color: black;
-  height: 10vh;
+  height: 12vh;
   color:white;
-  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around ;
+}
+
+.header_Nav
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:50px;
+  font-size: medium;
+}
+.spotifyLogo
+{
+  font-size: xx-large;
+}
+.header_Nav a{
+  text-decoration: none;
+  color: white;
+
+}
+.header_Nav a:hover{
+  color:#1DB954
 }
